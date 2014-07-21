@@ -1,27 +1,22 @@
 {
-  "name": "",
+  "name": "simple-ssl-proxy",
   "version": "0.0.0",
-  "description": "",
+  "description": "A proof of concept for serving up insecure content over SSL",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "echo no start script... yet!",
-    "test": "mocha"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/zeke/simple-ssl-proxy"
   },
-  "keywords": [
-    "",
-    "",
-    ""
-  ],
-  "author": "",
+  "author": "zeke",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/zeke/simple-ssl-proxy/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/zeke/simple-ssl-proxy",
   "devDependencies": {
     "mocha": "^1.20.0"
   },
